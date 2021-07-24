@@ -1,5 +1,5 @@
 const createTaskQueue = () => {
-  const taskQueue = []
+  const taskQueue = [];
   return {
     /**
      * 向任务队列中添加任务
@@ -12,8 +12,8 @@ const createTaskQueue = () => {
     /**
      * 判断任务队列中是否还有任务
      */
-    isEmpty: () => taskQueue.length === 0
-  }
-}
+    isEmpty: () => taskQueue.length === 0,
+  };
+};
 
-export default createTaskQueue
+export default createTaskQueue;
